@@ -34,5 +34,5 @@ class Ui_BigFolderFounder(object):
     def retranslateUi(self, BigFolderFounder):
         _translate = QtCore.QCoreApplication.translate
         BigFolderFounder.setWindowTitle(_translate("FolderExaminer", "FolderExaminer"))
-        self.label.setText(_translate("FolderExaminer", "Path to file"))
+        self.label.setText(_translate("FolderExaminer", "Path to folder"))
         self.pushButton.setText(_translate("FolderExaminer", "Input"))
