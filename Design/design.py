@@ -13,19 +13,19 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_BigFolderFounder(object):
     def setupUi(self, BigFolderFounder):
-        BigFolderFounder.setObjectName("FolderExaminer")
+        BigFolderFounder.setObjectName("BigFolderFounder")
         BigFolderFounder.resize(393, 491)
         self.lineEdit = QtWidgets.QLineEdit(BigFolderFounder)
-        self.lineEdit.setGeometry(QtCore.QRect(70, 10, 221, 21))
+        self.lineEdit.setGeometry(QtCore.QRect(80, 10, 220, 21))
         self.lineEdit.setObjectName("lineEdit")
         self.label = QtWidgets.QLabel(BigFolderFounder)
-        self.label.setGeometry(QtCore.QRect(10, 11, 51, 20))
+        self.label.setGeometry(QtCore.QRect(10, 11, 71, 20))
         self.label.setObjectName("label")
         self.textBrowser = QtWidgets.QTextBrowser(BigFolderFounder)
         self.textBrowser.setGeometry(QtCore.QRect(10, 40, 371, 441))
         self.textBrowser.setObjectName("textBrowser")
         self.pushButton = QtWidgets.QPushButton(BigFolderFounder)
-        self.pushButton.setGeometry(QtCore.QRect(300, 10, 75, 23))
+        self.pushButton.setGeometry(QtCore.QRect(305, 10, 75, 23))
         self.pushButton.setObjectName("pushButton")
 
         self.retranslateUi(BigFolderFounder)
@@ -33,6 +33,6 @@ class Ui_BigFolderFounder(object):
 
     def retranslateUi(self, BigFolderFounder):
         _translate = QtCore.QCoreApplication.translate
-        BigFolderFounder.setWindowTitle(_translate("FolderExaminer", "FolderExaminer"))
-        self.label.setText(_translate("FolderExaminer", "Path to folder"))
-        self.pushButton.setText(_translate("FolderExaminer", "Input"))
+        BigFolderFounder.setWindowTitle(_translate("BigFolderFounder", "BigFolderFounder"))
+        self.label.setText(_translate("BigFolderFounder", "Path to folder"))
+        self.pushButton.setText(_translate("BigFolderFounder", "Input"))
